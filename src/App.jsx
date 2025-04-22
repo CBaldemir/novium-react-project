@@ -1,5 +1,6 @@
+import React from 'react';
 
-function App() {
+export default function App() {
   return (
     <>
       <div id="__next">
@@ -183,5 +184,3 @@ function App() {
     </>
   );
 }
-
-export default App;
