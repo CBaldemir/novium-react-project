@@ -180,7 +180,6 @@ function App() {
 </div>
 </div>
 </div>
-<script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"UQX4HnN3gRKFJ65STlYo5","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
     </>
   );
 }
