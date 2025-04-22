@@ -37,7 +37,6 @@ function App() {
                     Revolutionizing material development with Generative AI<br/>
                     to accelerate discovery, reduce costs, and enable sustainable innovation.
                 </p>
-<!-- Butonlar -->
 <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center items-center mt-12">
 <a href="#features">
 <button className="text-zinc-700 inline-flex items-center justify-center bg-white text-base px-6 py-2 border border-zinc-200 rounded-2xl transition duration-150 shadow-[0_10px_20px_rgba(0,_0,_0,_.1),0_3px_6px_rgba(0,_0,_0,_.05)] hover:shadow-[rgba(0,_0,_0,_.15)_0_2px_8px] hover:opacity-80">
@@ -50,7 +49,6 @@ function App() {
                         </button>
 </a>
 </div>
-<!-- Görsel -->
 <div className="overflow-hidden pt-20 px-4 w-full relative" style="perspective:1000px">
 <div className="relative w-[100%] overflow-x-hidden md:w-3/4 mx-auto h-[12rem] sm:h-[16rem] md:h-[24rem] lg:h-[32rem] -mb-8 md:-mb-16 max-w-5xl">
 <img alt="Dashboard Image" className="transition duration-500 scale-100 rounded-xl md:rounded-3xl border mx-auto object-cover shadow-lg hover:shadow-2xl hover:shadow-[rgba(0,0,0,0.7)] object-right-top" decoding="async" loading="lazy" sizes="100vw" src="images/dashboard.png" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"/>
@@ -58,9 +56,7 @@ function App() {
 </div>
 </div>
 <div className="px-4 bg-zinc-900 py-20 md:py-40 relative group" id="features">
-<!-- Arka plan efekti -->
 <div className="absolute w-96 h-96 -left-20 -top-20 bg-gradient-to-t from-[#9890e3] to-[#b1f4cf] blur-3xl rounded-full opacity-20"></div>
-<!-- Başlık ve Açıklama -->
 <div className="max-w-3xl mx-auto text-center relative z-10">
 <h2 className="font-display text-4xl md:text-5xl font-semibold text-white">Key Challenges in Material Development</h2>
 <p className="mt-6 text-lg md:text-xl text-blue-100 leading-relaxed">
@@ -73,12 +69,9 @@ function App() {
                         complex and expensive.
                     </p>
 </div>
-<!-- Kartlar -->
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 max-w-6xl mx-auto mt-20 px-4">
-<!-- Kart 1 -->
 <div className="flex flex-col items-start">
 <div className="h-10 w-10 rounded-xl bg-white flex items-center justify-center">
-<!-- Flask Icon -->
 <svg className="text-primary h-5 w-5 text-zinc-900" fill="currentColor" viewbox="0 0 24 24">
 <path d="M9 2v2h1v4.586l-5.707 5.707a1 1 0 0 0 .707 1.707H19a1 1 0 0 0 .707-1.707L14 8.586V4h1V2H9zM7.414 14l4-4h1.172l4 4H7.414z"></path>
 </svg>
@@ -90,10 +83,8 @@ function App() {
                             </p>
 </div>
 </div>
-<!-- Kart 2 -->
 <div className="flex flex-col items-start">
 <div className="h-10 w-10 rounded-xl bg-white flex items-center justify-center">
-<!-- Leaf Icon -->
 <svg className="text-primary h-5 w-5 text-zinc-900" fill="currentColor" viewbox="0 0 24 24">
 <path d="M12 2C6.48 2 2 6.48 2 12c0 4.41 2.91 8.19 7 9.5v-2.02c-2.9-1.13-5-3.94-5-7.48 0-4.42 3.58-8 8-8 2.48 0 4.71 1.12 6.22 2.88C17.84 8.57 16 11.05 16 14v4l4 4 1.41-1.41-3.59-3.59V14c0-3.87 3.13-7 7-7v2c-2.76 0-5 2.24-5 5v3.17l-3.59-3.59L12 22l-1.41-1.41L14.17 17H12c-4.97 0-9-4.03-9-9s4.03-9 9-9z"></path>
 </svg>
@@ -105,10 +96,8 @@ function App() {
                             </p>
 </div>
 </div>
-<!-- Kart 3 -->
 <div className="flex flex-col items-start">
 <div className="h-10 w-10 rounded-xl bg-white flex items-center justify-center">
-<!-- Globe / Climate Icon -->
 <svg className="text-primary h-5 w-5 text-zinc-900" fill="currentColor" viewbox="0 0 24 24">
 <path d="M12 2a10 10 0 1 0 10 10A10.01142 10.01142 0 0 0 12 2Zm7.93 9H17.07a7.9925 7.9925 0 0 0-1.15-4.44A8.03334 8.03334 0 0 1 19.93 11ZM12 20a8.0165 8.0165 0 0 1-6.92-4h13.84A8.0165 8.0165 0 0 1 12 20Zm-7.93-9a8.03334 8.03334 0 0 1 4.01-5.44A7.9925 7.9925 0 0 0 6.93 11Zm2.23 2a7.9925 7.9925 0 0 0 1.15 4.44A8.03334 8.03334 0 0 1 4.07 13ZM12 4a8.0165 8.0165 0 0 1 6.92 4H5.08A8.0165 8.0165 0 0 1 12 4Zm1.77 13.44A7.9925 7.9925 0 0 0 17.07 13H6.93a7.9925 7.9925 0 0 0 3.3 4.44ZM13.85 13A6.05194 6.05194 0 0 1 12 18a6.05194 6.05194 0 0 1-1.85-5Z"></path>
 </svg>
@@ -123,9 +112,7 @@ function App() {
 </div>
 </div>
 <div className="px-4 bg-white py-20 md:py-32 relative overflow-hidden" id="solutions">
-<!-- Arka plan efekti -->
 <div className="absolute h-96 -top-64 inset-x-0 w-1/2 mx-auto bg-gradient-to-t from-[#9890e3] to-[#b1f4cf] blur-3xl rounded-full opacity-50"></div>
-<!-- Başlık ve Açıklama -->
 <div className="max-w-4xl mx-auto text-center relative z-10">
 <h2 className="font-display text-4xl md:text-5xl font-semibold tracking-tight text-zinc-900">
                         Our Smart Solutions
@@ -134,11 +121,8 @@ function App() {
                         Cutting-edge solution that directly addresses the challenges of slow R&amp;D cycles, high costs, and sustainability demands in material development. Our generative AI platform accelerates innovation by replacing traditional trial-and-error methods with precise digital prototyping and simulation. This approach not only saves time but also significantly reduces development costs by minimizing the need for physical testing.
                     </p>
 </div>
-<!-- Kartlar -->
 <div className="max-w-6xl mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20">
-<!-- Kart 1 (Faster Innovation) -->
 <div className="shadow-lg px-8 py-12 rounded-xl border bg-white">
-<!-- İkon -->
 <div className="mb-6">
 <i className="fas fa-lightbulb text-[#d62828] text-4xl"></i>
 </div>
@@ -147,9 +131,7 @@ function App() {
                             Replace traditional testing with rapid digital simulations, accelerating R&amp;D and speeding up the path from idea to market.
                         </p>
 </div>
-<!-- Kart 2 (Cost Reduction) -->
 <div className="shadow-lg px-8 py-12 rounded-xl border bg-white">
-<!-- İkon -->
 <div className="mb-6">
 <i className="fas fa-dollar-sign text-[#d62828] text-4xl"></i>
 </div>
@@ -158,9 +140,7 @@ function App() {
                             Cut material development costs by minimizing physical testing and optimizing formulations for performance and efficiency.
                         </p>
 </div>
-<!-- Kart 3 (Eco-Friendly Solutions) -->
 <div className="shadow-lg px-8 py-12 rounded-xl border bg-white">
-<!-- İkon -->
 <div className="mb-6">
 <i className="fas fa-leaf text-[#d62828] text-4xl"></i>
 </div>
@@ -186,7 +166,7 @@ function App() {
 <a className="font-bold text-sm flex items-center justify-center text-white space-x-2 text-black text-xl" href="/"><span className="bg-primary w-6 h-6 flex items-center justify-center rounded-[6px] font-mono relative overflow-hidden"><span className="absolute w-full h-full transform translate-x-3 bg-white/[0.2] rotate-45"></span></span><span className="font-mono text-black text-xl">Novium</span></a>
 <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4"><a className="text-zinc-500 text-sm relative" href="#novium-home"><span className="relative z-10 px-2 py-2 inline-block">Home</span></a><a className="text-zinc-500 text-sm relative" href="#features"><span className="relative z-10 px-2 py-2 inline-block">Explore Challenges</span></a><a className="text-zinc-500 text-sm relative" href="#solutions"><span className="relative z-10 px-2 py-2 inline-block">Discover Our Approach</span></a></div>
 <p className="text-slate-500 text-sm font-light text-center mt-8 border-t border-zinc-100 pt-4">
-                © <!-- -->2025<!-- --> Novium Gen Ai. All rights reserved.
+                © 2025 Novium Gen Ai. All rights reserved.
             </p>
 <div className="flex flex-row justify-center space-x-2 mt-2">
 <a className="text-zinc-500 text-sm relative" href="https://www.linkedin.com/company/nov-ium" target="__blank">
