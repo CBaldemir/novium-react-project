@@ -9,4 +9,5 @@ if (!globalThis.crypto) {
 
 export default defineConfig({
   plugins: [react()],
+  base: ""
 });
