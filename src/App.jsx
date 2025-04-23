@@ -388,7 +388,7 @@ export default function App() {
                     height="1em"
                     stroke="currentColor"
                     stroke-width="0"
-                    viewbox="0 0 1024 1024"
+                    viewBox="0 0 1024 1024"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
                   >
