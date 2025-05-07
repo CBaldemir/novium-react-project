@@ -350,9 +350,7 @@ export default function App() {
               className="font-bold text-sm flex items-center justify-center text-white space-x-2 text-black text-xl"
               href="/"
             >
-              <span className="bg-primary w-6 h-6 flex items-center justify-center rounded-[6px] font-mono relative overflow-hidden">
-                <span className="absolute w-full h-full transform translate-x-3 bg-white/[0.2] rotate-45"></span>
-              </span>
+              <img src="/images/logo.png" alt="logo" className="w-6 h-6 rounded-[6px]"/>
               <span className="font-mono text-black text-xl">Novium</span>
             </a>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
